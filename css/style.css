@@ -8,6 +8,7 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+/* first-page */
 .main-title{
     display: flex;
     flex-direction: column;
@@ -20,6 +21,8 @@
     background: #EFEFEF;
     padding-top: 40px;
     padding-bottom: 32px;
+    font-family: 'DM Sans';
+    font-style: normal;
 }
 
 .center {
@@ -173,4 +176,47 @@
 .fakta-block3{
     padding-top:56px;
     padding-right: 88px;
+}
+
+/* second page */
+
+.find-course{
+    display: flex;
+    margin-top: 128px;
+}
+
+.find-course-title{
+    font-family: 'DM Sans' !important;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    color: #222222;
+}
+
+.find-course-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #555555;
+}
+
+.find-course-subsext{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.find-course-button{
+    border: none;
+}
+
+.find-course-button-text{
+    padding: 16px 32px;
+    background: #086CF9;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
