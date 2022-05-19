@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+}
+
+.main_header{
+    height: 120px;
+}
+
+.wrap {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.main_page{
+    background-image: url(../images/hero_section.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 739px;
+}
+
+.main_title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+
+.learning-title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.learning-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.learning-button{
+    padding: 16px 30px;
+    background: #086CF9;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-text{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
