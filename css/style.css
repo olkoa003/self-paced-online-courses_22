@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+.site-warning {
+  color: red;
+  font-size: 10px;
+  text-align: center;
+}
+
 .body {
   font-family: 'DM Sans', sans-serif;
 }
@@ -308,8 +314,8 @@
   width: 75%;
   margin: auto;
   text-align: center;
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 150px;
+  padding-left: 150px;
   margin-bottom: 48px;
   min-height: 50px;
 }
@@ -389,8 +395,6 @@
   background: #086CF9;
   border-radius: 6px;
   border: none;
-  margin-top: 48px;
-  margin-bottom: 61px;
 }
 
 .find-course-button-text-2 {
@@ -413,6 +417,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 48px;
+  padding-bottom: 61px;
 }
 
 .course-image {
@@ -485,6 +491,7 @@
   color: #222222;
   text-align: center;
   padding-bottom: 12px;
+  padding-top: 128px;
 }
 
 .meet-our-mentor-text {
@@ -501,7 +508,6 @@
 }
 
 .meet-our-mentor {
-  margin-top: 128px;
   margin-bottom: 48px;
 }
 
@@ -511,5 +517,99 @@
   display: flex;
   gap: 24px;
   padding-top: 48px;
+}
+
+.mentor-block {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 11px 55px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  min-height: 502px;
+}
+
+.mentor-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #222222;
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-bottom: 8px;
+}
+
+.mentor-position {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #555555;
+  padding-left: 32px;
+  padding-bottom: 27px;
+}
+
+.mentor-remits {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.upcoming-event-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 23px;
+  margin-top: 48px;
+  margin-bottom: 128px;
+}
+
+.upcoming-events-block {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 12px 45px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 12px 45px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  width: 368px;
+  min-height: 390px;
+}
+
+.upcoming-events-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222222;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 77px;
+}
+
+.event-detail {
+  padding-left: 24px;
+}
+
+.blue-block {
+  background: #D3E5FE;
+  min-height: 247px;
+}
+
+.fire-blue-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.teachers {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #555555;
 }
 /*# sourceMappingURL=style.css.map */
