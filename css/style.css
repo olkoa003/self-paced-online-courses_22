@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.center {
+  text-align: center;
+}
+
 .body {
   font-family: 'DM Sans', sans-serif;
 }
@@ -421,6 +425,16 @@
   padding-bottom: 61px;
 }
 
+.second-button_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 40px;
+}
+
 .course-image {
   padding: 24px;
 }
@@ -602,6 +616,9 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 72px;
+  padding-left: 140px;
+  padding-right: 140px;
 }
 
 .teachers {
@@ -611,5 +628,400 @@
   font-size: 16px;
   line-height: 155%;
   color: #555555;
+  padding-top: 16px;
+  text-align: center;
+}
+
+.latest-block-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 42px;
+}
+
+.latest-block-module-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222222;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  padding-right: 69px;
+  padding-left: 29px;
+}
+
+.latest-block-module-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  color: #444444;
+  padding-right: 29px;
+  padding-left: 29px;
+  padding-bottom: 24px;
+}
+
+.read-more {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #086CF9;
+  padding-left: 29px;
+  padding-bottom: 32px;
+}
+
+.latest-block {
+  background: #FFFFFF;
+  border: 0.5px solid #BFBFBF;
+  border-radius: 4px;
+  min-height: 487px;
+  width: 368px;
+}
+
+.students-say-block {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 13px 45px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 13px 45px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  min-height: 260px;
+  width: 320px;
+}
+
+.students-say-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #555555;
+  padding-top: 30px;
+  padding-left: 15px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+
+.student-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #222222;
+  display: inline-block;
+}
+
+.student-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  color: #555555;
+}
+
+.students-img {
+  display: inline-block;
+}
+
+.what-studetnts-blue-block {
+  background: #086CF9;
+  border-radius: 6px;
+  width: 939px;
+  min-height: 325px;
+  margin-top: 128px;
+}
+
+.students-say-text-blue-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #FCFCFC;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.students-say-text-blue-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  color: #F9F9F9;
+  padding-right: 224px;
+  padding-left: 224px;
+  padding-top: 12px;
+  padding-bottom: 40px;
+}
+
+.input-blue-text {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  color: #555555;
+  border: none;
+}
+
+.input-blue-block {
+  background: #FFFFFF;
+  border-radius: 4px;
+  min-width: 538px;
+  min-height: 64px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.form > input-blue-block {
+  background: #FFFFFF;
+  border-radius: 4px;
+  min-width: 538px;
+  min-height: 64px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.form > input-blue-block .form.button[type="submit"] {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.form > input-blue-block input[type="text"] {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155%;
+  color: #555555;
+  border: none;
+  padding-top: 21px 24px;
+}
+
+.form > input-blue-block input::-webkit-input-placeholder {
+  color: #beb19a;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.form > input-blue-block input:-ms-input-placeholder {
+  color: #beb19a;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.form > input-blue-block input::-ms-input-placeholder {
+  color: #beb19a;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.form > input-blue-block input::placeholder {
+  color: #beb19a;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.student-say-submodules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 42px;
+}
+
+.student-text {
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.main-footer {
+  background: #D3E5FE;
+  min-height: 421px;
+  margin-top: 128px;
+}
+
+.main-footer-submododules {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.education-title-1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #222222;
+  padding-top: 60px;
+  padding-bottom: 24px;
+}
+
+.education-text-1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  color: #555555;
+  padding-bottom: 32px;
+  padding-right: 100px;
+}
+
+.education-title-2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #222222;
+  padding-bottom: 24px;
+}
+
+.footer-links {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  list-style-type: none;
+  padding-bottom: 16px;
+}
+
+.education-follow-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-links:before {
+  content: url(../images/shevron.svg);
+  padding-right: 15px;
+}
+
+.social-link {
+  width: 48px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: space-between;
+  gap: 16px;
+}
+
+.three-footer-link-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-links_1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  list-style-type: none;
+  padding-bottom: 16px;
+}
+
+.footer-links_2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  list-style-type: none;
+  padding-bottom: 16px;
+}
+
+.footer-links_3 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  list-style-type: none;
+  padding-bottom: 16px;
+}
+
+.footer-links_4 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+  list-style-type: none;
+  padding-bottom: 16px;
+}
+
+.footer-links_2:before {
+  content: url(../images/tlfLogo.svg);
+  padding-right: 8px;
+}
+
+.footer-links_3:before {
+  content: url(../images/mailLogo.svg);
+  padding-right: 8px;
+}
+
+.footer-links_4:before {
+  content: url(../images/globeLogo.svg);
+  padding-right: 8px;
+}
+
+.first-footer-link-block {
+  min-width: 194px;
+  margin-right: 92px;
+}
+
+.second-footer-link-block {
+  min-width: 119px;
+  margin-right: 92px;
+}
+
+.third-footer-link-block {
+  min-width: 203px;
 }
 /*# sourceMappingURL=style.css.map */
