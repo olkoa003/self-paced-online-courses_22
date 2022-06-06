@@ -19,7 +19,15 @@
   font-family: 'DM Sans', sans-serif;
 }
 
-/* first-page */
+.center {
+  text-align: center;
+}
+
+.wrap {
+  width: 1152px;
+  margin: 0 auto;
+}
+
 .main-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -29,7 +37,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 147px;
-  padding-top: 210px;
+  padding-top: 199px;
   font-family: 'DM Sans';
 }
 
@@ -39,15 +47,6 @@
   padding-bottom: 32px;
   font-family: 'DM Sans';
   font-style: normal;
-}
-
-.center {
-  text-align: center;
-}
-
-.wrap {
-  width: 1152px;
-  margin: 0 auto;
 }
 
 .main_page {
@@ -227,7 +226,6 @@
   padding-right: 88px;
 }
 
-/* second page */
 .find-course {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -282,7 +280,6 @@
   color: #FFFFFF;
 }
 
-/* third page */
 .how-it-work-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -508,6 +505,10 @@
   padding-top: 128px;
 }
 
+.meet-our-mentor-title-extra {
+  width: 551px;
+}
+
 .meet-our-mentor-text {
   font-family: 'DM Sans';
   font-style: normal;
@@ -517,12 +518,36 @@
   text-align: center;
   color: #444444;
   min-height: 50px;
-  padding-right: 450px;
-  padding-left: 450px;
+  width: 491px;
+  margin-left: 330px;
 }
 
-.meet-our-mentor {
-  margin-bottom: 48px;
+.our-mentor-text-2 {
+  margin-left: 365px;
+  margin-right: 365px;
+  width: 421px;
+}
+
+.our-mentor-text-3 {
+  width: 551px;
+}
+
+.our-mentor-text-4 {
+  width: 674px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.our-mentor-text-5 {
+  width: 423px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.our-mentor-text-6 {
+  width: 867px;
+  margin-right: 142px;
+  margin-left: 142px;
 }
 
 .meet-our-mentor-block {
@@ -606,7 +631,7 @@
 
 .blue-block {
   background: #D3E5FE;
-  min-height: 247px;
+  min-height: 220px;
 }
 
 .fire-blue-blocks {
@@ -716,6 +741,7 @@
   line-height: 26px;
   color: #222222;
   display: inline-block;
+  padding-bottom: 8px;
 }
 
 .student-title {
@@ -729,6 +755,8 @@
 
 .students-img {
   display: inline-block;
+  padding-left: 15px;
+  padding-right: 16px;
 }
 
 .what-studetnts-blue-block {
@@ -764,80 +792,97 @@
   padding-bottom: 40px;
 }
 
-.input-blue-text {
+.student-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.student-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slider-btn {
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+.slider-btn-left {
+  margin-right: 8px;
+  background: #E0DCDD;
+}
+
+.myclass {
+  padding: 0px;
+  color: white;
+}
+
+.myclass2 {
+  padding: 0px;
+  color: white;
+}
+
+.slider-btn-right {
+  background: #086CF9;
+  margin-left: 8px;
+}
+
+.input-blue-block {
+  background: #FFFFFF;
+  border-radius: 4px 4px;
+  min-width: 538px;
+  min-height: 64px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.input-blue-block input[type="text"] {
+  border: none;
+  outline: none;
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 155%;
   color: #555555;
-  border: none;
+  margin: 21px 21px 24px;
+  width: 350px;
 }
 
-.input-blue-block {
-  background: #FFFFFF;
+.input-blue-block button[type="submit"] {
+  padding: 12px 20px;
+  background: #086CF9;
   border-radius: 4px;
-  min-width: 538px;
-  min-height: 64px;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-
-.form > input-blue-block {
-  background: #FFFFFF;
-  border-radius: 4px;
-  min-width: 538px;
-  min-height: 64px;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-
-.form > input-blue-block .form.button[type="submit"] {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-}
-
-.form > input-blue-block input[type="text"] {
-  font-family: 'DM Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 155%;
-  color: #555555;
+  color: #FFFFFF;
   border: none;
-  padding-top: 21px 24px;
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
 }
 
-.form > input-blue-block input::-webkit-input-placeholder {
-  color: #beb19a;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
-}
-
-.form > input-blue-block input:-ms-input-placeholder {
-  color: #beb19a;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
-}
-
-.form > input-blue-block input::-ms-input-placeholder {
-  color: #beb19a;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
-}
-
-.form > input-blue-block input::placeholder {
-  color: #beb19a;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: italic;
+.input-blue-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .student-say-submodules {
@@ -923,16 +968,40 @@
           flex-direction: column;
 }
 
+.education-follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .footer-links:before {
   content: url(../images/shevron.svg);
   padding-right: 15px;
 }
 
 .social-link {
-  width: 48px;
-  height: 48px;
   background: #FFFFFF;
   border-radius: 4px;
+  width: 48px;
+}
+
+.fab {
+  color: #086CF9;
+  padding-left: 17.5px;
+  padding-right: 17.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.social-logo {
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .social-links {
@@ -1023,5 +1092,10 @@
 
 .third-footer-link-block {
   min-width: 203px;
+}
+
+.text-block-center {
+  text-align: center;
+  width: 491px;
 }
 /*# sourceMappingURL=style.css.map */

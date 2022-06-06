@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -17,12 +18,21 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-/* first-page */
+.center {
+    text-align: center;
+}
+
+.wrap {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+// <!-- main page start -->
 .main-title{
     display: flex;
     flex-direction: column;
     min-height: 147px;
-    padding-top: 210px;
+    padding-top: 199px;
     font-family: 'DM Sans';
 }
 
@@ -32,15 +42,6 @@
     padding-bottom: 32px;
     font-family: 'DM Sans';
     font-style: normal;
-}
-
-.center {
-    text-align: center;
-}
-
-.wrap {
-    width: 1152px;
-    margin: 0 auto;
 }
 
 .main_page{
@@ -200,7 +201,9 @@
     padding-right: 88px;
 }
 
-/* second page */
+// <!-- main page end -->
+
+//<!-- find your course that makes bright future start -->
 
 .find-course{
     display: flex;
@@ -253,8 +256,9 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+//<!-- find your course that makes bright future end-->
 
-/* third page */
+//<!-- how-it-work-section-start -->
 
 .how-it-work-section{
     display: flex;
@@ -332,6 +336,10 @@
     min-height: 66px;
 }
 
+//<!-- how-it-work-section-end -->
+
+
+//<!-- all-courses-section-start -->
 .all-our-courses{
     background: #ECF4FF;
 }
@@ -446,6 +454,10 @@
     padding-top: 20px;
 }
 
+//<!-- all-courses-section-end -->
+
+//<!-- meet-our-mentor-start -->
+
 .meet-our-mentor-title{
     font-family: 'DM Sans';
     font-style: normal;
@@ -458,6 +470,10 @@
     padding-top: 128px;
 }
 
+.meet-our-mentor-title-extra{
+    width: 551px;
+}
+
 .meet-our-mentor-text{
     font-family: 'DM Sans';
     font-style: normal;
@@ -467,13 +483,38 @@
     text-align: center;
     color: #444444;
     min-height: 50px;
-    padding-right: 450px;
-    padding-left: 450px;
+    width: 491px;
+    margin-left: 330px;
 }
 
-.meet-our-mentor{
-    margin-bottom: 48px;
+.our-mentor-text-2{
+    margin-left: 365px;
+    margin-right: 365px;
+    width: 421px;
 }
+
+.our-mentor-text-3{
+    width: 551px;
+}
+
+.our-mentor-text-4{
+    width: 674px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.our-mentor-text-5{
+    width: 423px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.our-mentor-text-6{
+    width: 867px;
+    margin-right: 142px;
+    margin-left: 142px;
+}
+
 
 .meet-our-mentor-block{
     display: flex;
@@ -516,9 +557,9 @@
     padding-right: 32px;
 }
 
+//<!-- meet-our-mentor-end -->
 
-//upcoming event start
-
+//<!-- meet-our-mentor-start -->
 .upcoming-event-element{
     display: flex;
     gap: 23px;
@@ -551,13 +592,12 @@
     padding-left: 24px;
 }
 
-//upcoming event end
+//<!-- meet-our-mentor-end -->
 
-// blue block start 
-
+//<!-- blue-block-section start-->
 .blue-block{
     background: #D3E5FE;
-    min-height: 247px;
+    min-height: 220px;
 }
 
 .fire-blue-blocks{
@@ -579,10 +619,9 @@
     text-align: center;
 }
 
-// blue block end
+//<!-- blue-block-section end-->
 
-
-//our-latest-blog-start
+//<!-- our latest blog end start -->
 
 .latest-block-module{
     display: flex;
@@ -636,15 +675,9 @@
     width: 368px;
 }
 
+//<!-- our latest blog end end -->
 
-//our-latest-blog-end
-
-
-// students-say-start
-
-.students-say-module{
-
-}
+//<!-- what our students say section start -->
 
 .students-say-block{
     background: #FFFFFF;
@@ -675,6 +708,7 @@
     line-height: 26px;
     color: #222222;
     display: inline-block;
+    padding-bottom: 8px;
 }
 
 .student-title{
@@ -688,6 +722,8 @@
 
 .students-img{
     display: inline-block;
+    padding-left: 15px;
+    padding-right: 16px;
 }
 
 .what-studetnts-blue-block{
@@ -723,61 +759,88 @@
     padding-bottom: 40px;
 }
 
-.input-blue-text{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 155%;
-    color: #555555;
-    border: none;
+.student-container{
+    display: flex;
 }
 
+.student-inner-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-btn{
+    border: 1px solid white;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.slider-btn-left{
+    margin-right: 8px;
+    background: #E0DCDD;
+}
+
+.myclass{
+    padding: 0px;
+    color: white;
+}
+
+.myclass2{
+    padding: 0px;
+    color: white;
+}
+
+.slider-btn-right{
+    background: #086CF9;
+    margin-left: 8px;
+}
+
+//input form for the blue page star
 .input-blue-block{
     background: #FFFFFF;
-    border-radius: 4px;
+    border-radius: 4px 4px;
     min-width: 538px;
     min-height: 64px;
     margin-right: 200px;
     margin-left: 200px;
-}
-
-//input form for the blue page start
-
-.form > input-blue-block{
-    background: #FFFFFF;
-    border-radius: 4px;
-    min-width: 538px;
-    min-height: 64px;
-    margin-right: 200px;
-    margin-left: 200px;
-}
-.form.button[type="submit"]{
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-}
 
     input[type="text"]{
+        border: none;
+        outline: none;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
-        line-height: 155%;        
+        line-height: 155%;
         color: #555555;
-        border: none;
-        padding-top: 21px 24px;
+        margin: 21px 21px 24px;
+        width: 350px;
+
     }
 
-    input::placeholder {
-        color: #beb19a;
+    button[type="submit"]{
+        padding: 12px 20px;    
+        background: #086CF9;
+        border-radius: 4px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
         font-size: 16px;
-        font-weight: normal;
-        font-style: italic;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        border: none;
+        margin-top: 8px;
+        margin-right: 8px;
+        margin-bottom: 8px;
     }
+}
+
+.input-blue-block{
+    display: flex;
+    justify-content: space-between;   
 }
 
 //input form for the blue page end
@@ -793,7 +856,9 @@
     border-radius: 4px;
 }
 
-//footer start 
+//<!-- what our students say section end -->
+
+//<!-- footer start -->
 
 .main-footer{
     background: #D3E5FE;
@@ -854,16 +919,35 @@
     flex-direction: column;
 }
 
+.education-follow{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer-links:before{
     content: url(../images/shevron.svg);
     padding-right: 15px;
 }
 
 .social-link{
-    width: 48px;
-    height: 48px;
     background: #FFFFFF;
     border-radius: 4px;
+    width: 48px;
+}
+
+.fab{
+    color: #086CF9;
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social-logo{
+    padding-left: 19px;
+    padding-right: 19px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .social-links{
@@ -950,6 +1034,8 @@
     min-width: 203px;
 }
 
-
-
-//footer end
+.text-block-center{
+    text-align: center;
+    width: 491px;
+}
+//<!-- footer end -->
